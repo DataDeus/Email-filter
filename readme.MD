@@ -4,7 +4,7 @@ This script is a python function: filter() that takes an email sentence and dete
 For referrence, [read here]('https://careers.foondamate.com/machine-learning-engineer-remote/foondamate-ml-engineer-coding-challenge-001')
 
 ## How function works
-The function uses NLTK chunking and POS tags (VBZ, TO, VBD, MD, VB, NN, NNP, PRP, and PRP$ ) to determine if a sentence is interrogative ('Student wants to know if can share') or informative ('Student has shared') and as an extra feature, suggestive ('Student might share email')
+The function uses NLTK chunking and POS tags (VBZ, TO, VBD, MD, VB, NN, NNP, PRP, and PRP$ ) to determine if a sentence is interrogative ('Student wants to know if can share') or delcarative ('Student has shared') and as an extra feature, suggestive ('Student might share email')
 
 # Build and docker image
 
